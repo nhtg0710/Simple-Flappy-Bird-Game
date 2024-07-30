@@ -1,0 +1,16 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#0D332E",
+        "titleBar.activeBackground": "#134841",
+        "titleBar.activeForeground": "#F5FCFB"
+    },
+    "java.test.config": [
+        {
+            "name": "Test with AppMap",
+            "vmArgs": [
+                "-javaagent:${userHome}/.appmap/lib/java/appmap.jar",
+                "-Dappmap.output.directory=${command:appmap.getAppmapDir}"
+            ]
+        }
+    ]
+}
